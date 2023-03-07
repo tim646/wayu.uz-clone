@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+requests = "*"
+bs4 = "*"
+selenium = "*"
+webdriver-manager = "*"
+django-ckeditor = "*"
+django-phonenumber-field = {extras = ["phonenumbers"], version = "*"}
+django-countries = "*"
+django-staticfiles = "*"
+pillow = "*"
+django-jazzmin = "*"
+instagram-scraper = "*"
+instagrapi = "*"
+instaloader = "*"
+celery = "*"
+django-celery-beat = "*"
+environs = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
